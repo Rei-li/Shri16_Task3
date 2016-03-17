@@ -30,9 +30,11 @@
 Работающий пример тут http://shri16t3.azurewebsites.net
 
 ВАЖНО: данный пример работает не по https, потому при использовании других браузеров, кроме Mozilla Firefox, браузер нужно открыть в тестовом режиме и потом перейти по ссылке на пример. (Подробнее тут https://goo.gl/rStTGz )
+
 Например на Windows для Google Chrome это можно сделать так:
 
 cd  C:\Program Files (x86)\Google\Chrome\Application\ 
+
 chrome.exe --user-data-dir=c:\Users\user\Documents\chrome_test_profile --unsafely-treat-insecure-origin-as-secure="http://shri16t3.azurewebsites.net/"
 
 После запуска команд Chrome скажет, что Вы используете неподдерживаемый флаг командной строки и стабильность и безопасность будут нарушены, однако видео с камеры при переходе по http://shri16t3.azurewebsites.net/ должно транслироваться нормально
